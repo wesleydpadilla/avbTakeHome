@@ -1,5 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
 
+//fetches some data from the typicode api, the structure made it complicated to post a single comment so in the interest of time
+//I opted for the mock data in the api but left this in to show the data was fetched
+
 export const getUser = createAsyncThunk("user/getUser", async () => {
   return fetch("https://jsonplaceholder.typicode.com/users").then(res =>
     res.json()

@@ -46,6 +46,9 @@ const CommentModal = ({ comments, setComments }) => {
     return setComments([...comments, { id: uuid(), name, comment }])
   }
 
+  //created a function to add new person and comment
+  //created a modal that has input fields which on submission would add the new comment and close the modal
+
   return (
     <Modal
       open={isOpen}

@@ -7,7 +7,8 @@ import Avatar from "@mui/material/Avatar"
 
 const CommentList = ({ comments }) => {
 
-  ///////////////////////////////////////////////////////////////////////////////////////////
+  //renders out the list of comments
+
   return (
     <div>
       {comments.map(mockComment => {

@@ -12,6 +12,9 @@ function TopCommenters({ comments }) {
   }
   const top3 = Object.entries(commenterMap).slice(0, 3)
 
+  //grabbed the comments state and created a commenter map which gave an object
+  //I converted this object into an array of key value pairs and took the top 3
+
   return (
     <div style={{ backgroundColor: "#e3e3e3" }}>
       <h2 style={{ marginTop: 0 }}>TOP USERS</h2>
